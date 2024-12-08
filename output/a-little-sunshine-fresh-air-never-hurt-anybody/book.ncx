@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+	<head>
+		<meta name="dtb:uid" content="https://www.fimfiction.net/story/476665/a-little-sunshine-fresh-air-never-hurt-anybody" />
+		<meta name="dtb:depth" content="2" />
+		<meta name="dtb:totalPageCount" content="0" />
+		<meta name="dtb:maxPageNumber" content="0" />
+		<meta name="dtb:generator" content="EPub (2.04) by A. Grandt, http://www.phpclasses.org/package/6115" />
+	</head>
+
+	<docTitle>
+		<text>A Little Sunshine &amp;#038; Fresh Air Never Hurt Anybody</text>
+	</docTitle>
+
+	<docAuthor>
+		<text>Enclave2277</text>
+	</docAuthor>
+
+	<navMap>
+
+		<navPoint id="" playOrder="0">
+			<navLabel><text>Cover</text></navLabel>
+			<content src="CoverPage.html" />
+		</navPoint>
+
+		<navPoint id="chapter1" playOrder="1">
+			<navLabel><text>Title</text></navLabel>
+			<content src="title.html" />
+		</navPoint>
+
+		<navPoint id="chapter2" playOrder="2">
+			<navLabel><text>Table of Contents</text></navLabel>
+			<content src="toc.html" />
+		</navPoint>
+
+		<navPoint id="chapter3" playOrder="3">
+			<navLabel><text>The First Day Of Summer Vacation</text></navLabel>
+			<content src="chapter-1.html" />
+		</navPoint>
+
+		<navPoint id="chapter4" playOrder="4">
+			<navLabel><text>Fun At The Family Pond</text></navLabel>
+			<content src="chapter-2.html" />
+		</navPoint>
+
+		<navPoint id="chapter5" playOrder="5">
+			<navLabel><text>Sipping Coffee With A Fashionista</text></navLabel>
+			<content src="chapter-3.html" />
+		</navPoint>
+
+		<navPoint id="chapter6" playOrder="6">
+			<navLabel><text>Of Traditions And Trips To The Pet Store</text></navLabel>
+			<content src="chapter-4.html" />
+		</navPoint>
+
+		<navPoint id="chapter7" playOrder="7">
+			<navLabel><text>Orientations, Old Friends, And Opportunities</text></navLabel>
+			<content src="chapter-5.html" />
+		</navPoint>
+
+		<navPoint id="chapter8" playOrder="8">
+			<navLabel><text>One Fine Day At The Fine Arts Club</text></navLabel>
+			<content src="chapter-6.html" />
+		</navPoint>
+
+		<navPoint id="chapter9" playOrder="9">
+			<navLabel><text>The Russian Connection</text></navLabel>
+			<content src="chapter-7.html" />
+		</navPoint>
+
+		<navPoint id="chapter10" playOrder="10">
+			<navLabel><text>The Tasty Treat And Teenage Turmoil</text></navLabel>
+			<content src="chapter-8.html" />
+		</navPoint>
+
+		<navPoint id="chapter11" playOrder="11">
+			<navLabel><text>White Mist Resort (I)</text></navLabel>
+			<content src="chapter-9.html" />
+		</navPoint>
+
+		<navPoint id="chapter12" playOrder="12">
+			<navLabel><text>Fall Break Festivities (I)</text></navLabel>
+			<content src="chapter-10.html" />
+		</navPoint>
+
+		<navPoint id="chapter13" playOrder="13">
+			<navLabel><text>White Mist Resort (II)</text></navLabel>
+			<content src="chapter-11.html" />
+		</navPoint>
+
+		<navPoint id="chapter14" playOrder="14">
+			<navLabel><text>Fall Break Festivities (II)</text></navLabel>
+			<content src="chapter-12.html" />
+		</navPoint>
+
+		<navPoint id="chapter15" playOrder="15">
+			<navLabel><text>Planting The Seeds Of A Brighter Future</text></navLabel>
+			<content src="chapter-13.html" />
+		</navPoint>
+
+		<navPoint id="chapter16" playOrder="16">
+			<navLabel><text>Apple Bloom's Cousin Can't Be This Cute!</text></navLabel>
+			<content src="chapter-14.html" />
+		</navPoint>
+
+		<navPoint id="chapter17" playOrder="17">
+			<navLabel><text>The Brewer &amp;#038; The Baker</text></navLabel>
+			<content src="chapter-15.html" />
+		</navPoint>
+
+		<navPoint id="chapter18" playOrder="18">
+			<navLabel><text>Spa Date With Rarity</text></navLabel>
+			<content src="chapter-16.html" />
+		</navPoint>
+
+		<navPoint id="chapter19" playOrder="19">
+			<navLabel><text>An Exciting Afternoon At The Acres</text></navLabel>
+			<content src="chapter-17.html" />
+		</navPoint>
+
+		<navPoint id="chapter20" playOrder="20">
+			<navLabel><text>Body Paint Exposition</text></navLabel>
+			<content src="chapter-18.html" />
+		</navPoint>
+
+		<navPoint id="chapter21" playOrder="21">
+			<navLabel><text>Ponyville Aquarium</text></navLabel>
+			<content src="chapter-19.html" />
+		</navPoint>
+	</navMap>
+</ncx>

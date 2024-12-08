@@ -1,0 +1,26 @@
+
+			.bbcode-indent-1 {
+				margin-left:4ex;
+			}
+			
+			.bbcode-indent-2 {
+				margin-left:8ex;
+			}
+			
+			.bbcode-indent-3 {
+				margin-left:12ex;
+			}
+			
+			.bbcode-indent-4 {
+				margin-left:16ex;
+			}
+			
+			.preface {
+				border-top:3px double currentColor;
+				border-bottom:3px double currentColor;
+			}
+			
+			.afterward {
+				border-top:3px double currentColor;
+			}
+		

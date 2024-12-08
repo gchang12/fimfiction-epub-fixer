@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:opf="http://www.idpf.org/2007/opf"
+		xmlns:dcterms="http://purl.org/dc/terms/">
+		<dc:title>Clothes Don't Always Make The Woman</dc:title>
+		<dc:language>en</dc:language>
+		<dc:identifier id="BookId" opf:scheme="URI">https://www.fimfiction.net/story/460777/clothes-dont-always-make-the-woman</dc:identifier>
+		<dc:description>The adventures of Rarity Belle: an aspiring jewelry maker &amp;#038; lifelong nudist living in Manehattan.</dc:description>
+		<dc:publisher>Fimfiction</dc:publisher>
+		<dc:relation>https://www.fimfiction.net</dc:relation>
+		<dc:creator opf:file-as="Enclave2277" opf:role="aut">Enclave2277</dc:creator>
+		<dc:date>2020-02-17T12:00:01.000000+00:00</dc:date>
+		<dc:source>https://www.fimfiction.net/story/460777/clothes-dont-always-make-the-woman</dc:source>
+		<meta name="cover" content="coverImage" />
+	</metadata>
+
+	<manifest>
+		<item id="coverPage" href="CoverPage.html" media-type="application/xhtml+xml" />
+		<item id="coverImage" href="images/cover.jpg" media-type="image/jpeg" />
+		<item id="ncx" href="book.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="css_css1" href="styles.css" media-type="text/css" />
+		<item id="chapter1" href="title.html" media-type="application/xhtml+xml" />
+		<item id="chapter2" href="toc.html" media-type="application/xhtml+xml" />
+		<item id="chapter3" href="chapter-1.html" media-type="application/xhtml+xml" />
+		<item id="chapter4" href="chapter-2.html" media-type="application/xhtml+xml" />
+		<item id="chapter5" href="chapter-3.html" media-type="application/xhtml+xml" />
+		<item id="chapter6" href="chapter-4.html" media-type="application/xhtml+xml" />
+		<item id="chapter7" href="chapter-5.html" media-type="application/xhtml+xml" />
+		<item id="chapter8" href="chapter-6.html" media-type="application/xhtml+xml" />
+		<item id="chapter9" href="chapter-7.html" media-type="application/xhtml+xml" />
+		<item id="chapter10" href="chapter-8.html" media-type="application/xhtml+xml" />
+		<item id="chapter11" href="chapter-9.html" media-type="application/xhtml+xml" />
+		<item id="chapter12" href="chapter-10.html" media-type="application/xhtml+xml" />
+		<item id="chapter13" href="chapter-11.html" media-type="application/xhtml+xml" />
+		<item id="chapter14" href="chapter-12.html" media-type="application/xhtml+xml" />
+		<item id="chapter15" href="chapter-13.html" media-type="application/xhtml+xml" />
+		<item id="chapter16" href="chapter-14.html" media-type="application/xhtml+xml" />
+		<item id="chapter17" href="chapter-15.html" media-type="application/xhtml+xml" />
+		<item id="chapter18" href="chapter-16.html" media-type="application/xhtml+xml" />
+		<item id="chapter19" href="chapter-17.html" media-type="application/xhtml+xml" />
+		<item id="chapter20" href="chapter-18.html" media-type="application/xhtml+xml" />
+		<item id="chapter21" href="chapter-19.html" media-type="application/xhtml+xml" />
+	</manifest>
+
+	<spine toc="ncx">
+		<itemref idref="coverPage" linear="no" />
+		<itemref idref="chapter1" />
+		<itemref idref="chapter2" />
+		<itemref idref="chapter3" />
+		<itemref idref="chapter4" />
+		<itemref idref="chapter5" />
+		<itemref idref="chapter6" />
+		<itemref idref="chapter7" />
+		<itemref idref="chapter8" />
+		<itemref idref="chapter9" />
+		<itemref idref="chapter10" />
+		<itemref idref="chapter11" />
+		<itemref idref="chapter12" />
+		<itemref idref="chapter13" />
+		<itemref idref="chapter14" />
+		<itemref idref="chapter15" />
+		<itemref idref="chapter16" />
+		<itemref idref="chapter17" />
+		<itemref idref="chapter18" />
+		<itemref idref="chapter19" />
+		<itemref idref="chapter20" />
+		<itemref idref="chapter21" />
+	</spine>
+</package>
