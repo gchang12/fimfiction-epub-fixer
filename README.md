@@ -1,3 +1,7 @@
+REQUIREMENTS
+==
+Must have vim and Linux
+
 HOW TO USE
 ==
 1. Insert downloaded file (downloaded_epub) into queue/
