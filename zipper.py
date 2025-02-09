@@ -5,12 +5,12 @@ Replaces ampersands in FimFiction epub files that make them unreadable.
 
 import zipfile
 import logging
-import os.path
+#import os.path
 import os
 import argparse
 from pathlib import Path
 import shutil
-import io
+#import io
 
 #zipfile = ZipFile()
 #help(ZipFile)
