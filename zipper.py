@@ -3,13 +3,14 @@
 Replaces ampersands in FimFiction epub files that make them unreadable.
 """
 
-from zipfile import ZipFile
+import zipfile
 import logging
 import os.path
 import os
 import argparse
 from pathlib import Path
 import shutil
+import io
 
 #zipfile = ZipFile()
 #help(ZipFile)
@@ -27,12 +28,12 @@ def unzip(filename):
     """
     Extracts contents of epub file into a directory in OUTPUTDIR_NAME.
     """
-    zipfile = ZipFile(filename)
+    zfile = zipfile.ZipFile(filename)
     path = str(Path(OUTPUTDIR_NAME, Path(filename).with_suffix("").name))
     logging.debug(
         "Extracting epub contents into %r", path,
     )
-    zipfile.extractall(path=path)
+    zfile.extractall(path=path)
     logging.debug("Currently in directory: '%s'", os.getcwd())
 
 def edit_file(dirname):
@@ -54,9 +55,46 @@ def edit_file(dirname):
         bookfile.write_text(fixed_booktext)
         #os.system("vim %s/book.*" % dirname)
 
-def rezip(dirname):
+def rezip2(dirname):
     """
     Repackages directory into an epub.
+    """
+    # https://www.reddit.com/r/vim/comments/gwcqd9/comment/fsuflnb/
+    os.chdir(dirname)
+    logging.debug("Currently in directory: '%s'", os.getcwd())
+    epub_name = Path(dirname).with_suffix(".epub").name
+    logging.debug("Rezipping epub: '%s'", epub_name)
+    new_contents = []
+    #os.system("zip -Xur9D '%s' * >/dev/null" % epub_name)
+    for (dirpath, dirnames, filenames) in os.walk('.'):
+        for filename in filenames:
+            #logging.debug("filename = %r", filename)
+            if filename == "mimetype":
+                continue
+            full_filepath = "/".join([dirpath, filename])
+            new_contents.append(full_filepath)
+    with zipfile.ZipFile(
+        file=epub_name,
+        mode='x',
+        compression=zipfile.ZIP_DEFLATED,
+        #compresslevel=0,
+    ) as xfile:
+        #os.system("zip -X0 '%s' mimetype >/dev/null" % epub_name)
+        xfile.write( "mimetype", compresslevel=0,)
+        #os.system("zip -Xur9D '%s' * >/dev/null" % epub_name)
+        for full_filepath in new_contents:
+            xfile.write(
+                full_filepath,
+                #data=data,
+                compresslevel=9,
+            )
+    #os.system("mv '%s' ../" % epub_name)
+    shutil.move(epub_name, "..")
+    return epub_name
+
+def rezip(dirname):
+    """
+    Repackages directory into an epub (OS-agnostic).
     """
     # https://www.reddit.com/r/vim/comments/gwcqd9/comment/fsuflnb/
     os.chdir(dirname)
@@ -92,7 +130,7 @@ dirname = Path(OUTPUTDIR_NAME, Path(filename).with_suffix("").name)
 logging.debug("Editing unzipped directory: '%s'", dirname)
 edit_file(dirname)
 logging.debug("Rezipping folder: '%s'", dirname)
-epub_name = rezip(dirname)
+epub_name = rezip2(dirname)
 if delzip:
     logging.debug("Deleting folder: '%s'", dirname)
     cleanup(dirname)
