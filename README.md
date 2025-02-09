@@ -1,6 +1,6 @@
 REQUIREMENTS
 ==
-Must have vim and Linux
+Must have Python
 
 HOW TO USE
 ==
