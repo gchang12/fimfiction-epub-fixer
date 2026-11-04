@@ -118,7 +118,7 @@ def cleanup(dirname):
 # parse arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("filename")
-parser.add_argument("--delzip", type=bool, default=True)
+parser.add_argument("--delzip", type=bool, default=False)
 args = parser.parse_args()
 filename = args.filename
 delzip = args.delzip
