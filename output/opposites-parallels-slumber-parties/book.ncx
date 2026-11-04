@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+	<head>
+		<meta name="dtb:uid" content="https://www.fimfiction.net/story/573577/opposites-parallels-slumber-parties" />
+		<meta name="dtb:depth" content="2" />
+		<meta name="dtb:totalPageCount" content="0" />
+		<meta name="dtb:maxPageNumber" content="0" />
+		<meta name="dtb:generator" content="EPub (2.04) by A. Grandt, http://www.phpclasses.org/package/6115" />
+	</head>
+
+	<docTitle>
+		<text>Opposites &amp;#038; Parallels &amp;#038; Slumber Parties</text>
+	</docTitle>
+
+	<docAuthor>
+		<text>Ossilia</text>
+	</docAuthor>
+
+	<navMap>
+
+		<navPoint id="" playOrder="0">
+			<navLabel><text>Cover</text></navLabel>
+			<content src="CoverPage.html" />
+		</navPoint>
+
+		<navPoint id="chapter1" playOrder="1">
+			<navLabel><text>Title</text></navLabel>
+			<content src="title.html" />
+		</navPoint>
+
+		<navPoint id="chapter2" playOrder="2">
+			<navLabel><text>Table of Contents</text></navLabel>
+			<content src="toc.html" />
+		</navPoint>
+
+		<navPoint id="chapter3" playOrder="3">
+			<navLabel><text>Wherein I self-insert my OC into an episode plot because no one is stopping me.</text></navLabel>
+			<content src="chapter-1.html" />
+		</navPoint>
+	</navMap>
+</ncx>
