@@ -43,8 +43,8 @@ def edit_file(dirname):
     logging.debug("Currently in directory: '%s'", os.getcwd())
     #os.system("vim %s/book.*" % dirname)
     #ampersand_replacement = "&#038;"
-    ampersand_replacement = "&amp;#038;"
-    #ampersand_replacement = "&amp;"
+    #ampersand_replacement = "&amp;#038;"
+    ampersand_replacement = "&amp;"
     for bookfile in Path(dirname).glob("book.*"):
         logging.debug(
             "Replacing '&' with %r in %r",

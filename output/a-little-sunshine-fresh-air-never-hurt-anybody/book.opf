@@ -4,7 +4,7 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xmlns:opf="http://www.idpf.org/2007/opf"
 		xmlns:dcterms="http://purl.org/dc/terms/">
-		<dc:title>A Little Sunshine &amp;#038; Fresh Air Never Hurt Anybody</dc:title>
+		<dc:title>A Little Sunshine &amp; Fresh Air Never Hurt Anybody</dc:title>
 		<dc:language>en</dc:language>
 		<dc:identifier id="BookId" opf:scheme="URI">https://www.fimfiction.net/story/476665/a-little-sunshine-fresh-air-never-hurt-anybody</dc:identifier>
 		<dc:description>A family of naturists run an apple orchard on the outskirts of Ponyville.</dc:description>

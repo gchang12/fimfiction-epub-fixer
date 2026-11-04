@@ -11,7 +11,7 @@
 	</head>
 
 	<docTitle>
-		<text>A Little Sunshine &amp;#038; Fresh Air Never Hurt Anybody</text>
+		<text>A Little Sunshine &amp; Fresh Air Never Hurt Anybody</text>
 	</docTitle>
 
 	<docAuthor>
@@ -106,7 +106,7 @@
 		</navPoint>
 
 		<navPoint id="chapter17" playOrder="17">
-			<navLabel><text>The Brewer &amp;#038; The Baker</text></navLabel>
+			<navLabel><text>The Brewer &amp; The Baker</text></navLabel>
 			<content src="chapter-15.html" />
 		</navPoint>
 
